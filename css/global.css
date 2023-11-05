@@ -1,0 +1,32 @@
+:root {
+    /* Colors */
+    --orange: hsl(25, 97%, 53%);
+    --white: hsl(0, 0%, 100%);
+    --lightGrey: hsl(217, 12%, 63%);
+    --darkBlue: hsl(213, 19%, 18%);
+    --mediumDarkBlue: hsl(213, 19%, 24%);
+    --mediumGrey: hsl(216, 12%, 54%);
+    --veryDarkBlue: hsl(216, 12%, 8%);
+    /* Typography */
+    --font-s15: 15px;
+    --fw400: 400;
+    --fw700: 700;
+    --font-overpass: 'Overpass', sans-serif;
+      /* font-family: 'Risque', serif; */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--veryDarkBlue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-overpass);
+    padding: 0 20px;
+}
